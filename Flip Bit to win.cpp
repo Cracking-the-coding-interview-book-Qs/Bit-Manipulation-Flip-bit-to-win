@@ -32,16 +32,12 @@ count Bit
 
 struct hash hash_array[length] use karna isme
 
-space complexity=O(height*width)=O(n*2)=O(n)
+TC => O(number of bits in n)
+SC => O(height*width)=O(n*2)=O(n)
 
 see code for further logic
 
 */
-
-//Issue:
-//fill_table() isn't proper. Work on fill table()
-//I didn't understand the optimised version of this
-//implement it with proper STL map
 
 #include<iostream>
 using namespace std;
